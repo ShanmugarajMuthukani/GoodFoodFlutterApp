@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'ui/routes/AppStartFirstScreenRoute.dart';
+import 'ui/routes/app_start_first_screen_route.dart';
+import 'ui/routes/home_page_route.dart';
 
 void main() => runApp(MyApp());
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: AppStartFirstScreenRoute(),
+      home: HomePageRoute(),
     );
   }
 }
